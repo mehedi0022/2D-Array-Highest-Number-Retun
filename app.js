@@ -11,7 +11,7 @@ let playerInfo = new Array(rows);
         playerInfo [p] [0] = prompt("Enter Player Name: ");
     }
     for( let q = 0; q < rows; q++){
-        playerInfo [q] [1] = prompt("Enter Player Score: ");
+        playerInfo [q] [1] = prompt("Total Runs of " +  playerInfo [q] [0]);
     }
 
 
